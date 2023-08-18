@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(0,150,57);
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.navbar img{
+    width: 150px;
+    height: 50px;
+    margin-top: 28px;
+    margin-left: 35px;
+}
+.link ul{
+    list-style-type: none;
+    margin-left: -10px;
+    display: flex;
+    padding-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link ul li{
+    margin-left: 50px;
+    margin-top: -5px;
+}
+.link ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link ul li a:hover{
+    color: yellow;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.social{
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+.social img{
+    width: 20px;
+    margin-left: 20px;
+    margin-top: -16px;
+    padding-left: 20px;
+}
+.social img:hover{
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+    background-color: rgb(8, 7, 7);
+}
+.text img{
+    width: 350px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.word h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4.5rem;
+    padding-left: 50px;
+}
+.btn button {
+    width: 170px;
+    height: 40px;
+    background-color: yellow;
+    border: 0;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-top: -30px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.btn button:hover{
+    background-color:  rgb(0,150,57);
+    color: yellow;
+}
+.image img{
+   width: 692px;
+   height: 531px;
+   margin-top: -478px;
+   float: right;
+}
+.content2{
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.content2 video{
+    width: 493px;
+    height: 250px;
+}
+.letter h1{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    float: right;
+    margin-top: -300px;
+    margin-right: 160px;
+    padding: 10px;
+}
+.letter h3{
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    margin-top: -150px;
+    margin-right: 137px;
+    padding: 10px;
+}
+.btn1 button{
+    width: 170px;
+    height: 40px;
+    background-color: yellow;
+    border: 0;
+    border-radius: 50px;
+    float: right;
+    margin-right: 500px;
+    margin-top: -50px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.btn1 button:hover{
+    background-color:  rgb(0,150,57);
+    color: yellow;
+
+}
+.content3{
+    display: flex;
+}
+.sentence{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding-left: 80px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    color: rgb(0,150,57);
+}
+.pic img{
+    width: 700px;
+    height: 438px;
+    margin-top: 50px;
+}
+.footer{
+    background-color:rgb(0,150,57); 
+}
+.sub-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:rgb(0,150,57);
+}
+.footerlogo{
+    width:33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlogo img{
+    width: 150px;
+    height: 50px;
+}
+.media {
+    width: 33%;
+}
+footer-h5{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.media h5{
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 140px;
+}
+.png{
+    display: flex;
+    justify-content: start;
+}
+.png img{
+    width: 25px;
+    padding: 10px;
+    margin-top: 60px;
+}
+.footer-list{
+    width:33%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footerlisth5 a{
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+    color:rgb(246, 243, 243);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.footerlisth5 a:hover{
+    color: yellow;
+}
+.copyright{
+    display: inline;
+}
+.copyright p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+.links{
+    background-color:rgb(0,150,57);
+    height: 50px;
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+  
+}
